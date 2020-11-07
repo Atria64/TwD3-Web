@@ -12,7 +12,7 @@
         />
 
         <q-toolbar-title>
-          Quasar App
+          TwD3-Web
         </q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
@@ -51,46 +51,28 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'Docs',
-    caption: 'quasar.dev',
-    icon: 'school',
-    link: 'https://quasar.dev'
+    title: 'GitHub',
+    caption: 'github.com/Atria64/TwD3',
+    icon: 'fab fa-github-square',
+    link: 'https://github.com/Atria64/TwD3'
   },
   {
-    title: 'Github',
-    caption: 'github.com/quasarframework',
-    icon: 'code',
-    link: 'https://github.com/quasarframework'
+    title: 'Latest Release(Github)',
+    caption: 'github.com/Atria64/TwD3/releases',
+    icon: 'new_releases',
+    link: 'https://github.com/Atria64/TwD3/releases'
   },
   {
-    title: 'Discord Chat Channel',
-    caption: 'chat.quasar.dev',
-    icon: 'chat',
-    link: 'https://chat.quasar.dev'
-  },
-  {
-    title: 'Forum',
-    caption: 'forum.quasar.dev',
-    icon: 'record_voice_over',
-    link: 'https://forum.quasar.dev'
+    title: 'Download',
+    caption: 'Chrome Web Store',
+    icon: 'get_app',
+    link: 'https://chrome.google.com/webstore/detail/twd3/pbmcgkecchhocbndaicehjpdocoflbeg'
   },
   {
     title: 'Twitter',
-    caption: '@quasarframework',
-    icon: 'rss_feed',
-    link: 'https://twitter.quasar.dev'
-  },
-  {
-    title: 'Facebook',
-    caption: '@QuasarFramework',
-    icon: 'public',
-    link: 'https://facebook.quasar.dev'
-  },
-  {
-    title: 'Quasar Awesome',
-    caption: 'Community Quasar projects',
-    icon: 'favorite',
-    link: 'https://awesome.quasar.dev'
+    caption: '@AtriaSoft',
+    icon: 'fab fa-twitter',
+    link: 'https://twitter.com/AtriaSoft'
   }
 ]
 
