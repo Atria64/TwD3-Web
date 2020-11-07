@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="hHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -15,7 +15,11 @@
           TwD3-Web
         </q-toolbar-title>
 
-        <div>Quasar v{{ $q.version }}</div>
+        <div>
+          <a href="https://chrome.google.com/webstore/detail/twd3/pbmcgkecchhocbndaicehjpdocoflbeg">
+            <img src="https://img.shields.io/chrome-web-store/v/pbmcgkecchhocbndaicehjpdocoflbeg"/>
+          </a>
+        </div>
       </q-toolbar>
     </q-header>
 
