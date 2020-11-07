@@ -16,7 +16,20 @@
       </div>
       <div class="col-md-4">
         <h3>できること</h3>
-        <p></p>
+        <ul>
+          <li>検知時自動ウィンドウ遷移</li>
+          <ul>
+            <li>自動で余計なウィンドウを閉じ、既に開かれているTweetDeckウィンドウへ遷移します。</li>
+          </ul>
+          <li>クイックアクセス</li>
+          <ul>
+            <li>アイコンを左クリックすることでTweetDeckへ素早くアクセスすることができます。</li>
+          </ul>
+          <li>TweetDeckブロックモード</li>
+          <ul>
+            <li>集中しなければならないときなど、TweetDeckを開きたくない場面でご利用ください。</li>
+          </ul>
+        </ul>
       </div>
       <div class="col-md-4">
         <h3>利用料金</h3>
