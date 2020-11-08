@@ -23,8 +23,9 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Install
-        run: npm run cdd
-        run: npm ci
+        run: |
+          npm run cdd
+          npm ci
       - name: Build
         run: npm run build
       - name: Deploy
