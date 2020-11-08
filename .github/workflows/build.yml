@@ -24,7 +24,9 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install
         run: |
-          npm run cdd
+          ls
+          cd twd3-web
+          ls
           npm ci
       - name: Build
         run: npm run build
