@@ -1,0 +1,11 @@
+// app global css in SCSS form
+
+div{
+    h3{
+        font-size: 34px;
+        line-height: 3rem;
+        border-bottom: solid 3px $accent;
+        max-width: 300px;
+        width: 70%;
+    }
+}
