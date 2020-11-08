@@ -1,5 +1,5 @@
 <template>
-  <q-layout view="hHh Lpr lFf">
+  <q-layout view="hHh Lpr lff">
     <q-header elevated>
       <q-toolbar>
         <q-btn
@@ -47,6 +47,15 @@
     <q-page-container>
       <router-view />
     </q-page-container>
+
+    <q-footer>
+      <q-toolbar>
+        <q-toolbar-title/>
+          <div>
+            The MIT License,  Copyright (c) 2020 Atria64. All Rights Reserved.
+          </div>
+      </q-toolbar>
+    </q-footer>
   </q-layout>
 </template>
 
