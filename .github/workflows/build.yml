@@ -2,7 +2,7 @@ name: Build & Deploy
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-18.04
@@ -30,6 +30,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BASE_BRANCH: main
+          BASE_BRANCH: master
           BRANCH: gh-pages
           FOLDER: dist/spa
