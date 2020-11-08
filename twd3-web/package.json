@@ -9,8 +9,7 @@
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "cdd":"cd twd3-web",
-    "build": "quasar build",
-    "all":"run-s cdd build"
+    "build": "quasar build"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",

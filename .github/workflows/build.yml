@@ -23,9 +23,10 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - name: Install
+        run: npm run cdd
         run: npm ci
       - name: Build
-        run: npm run all
+        run: npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
