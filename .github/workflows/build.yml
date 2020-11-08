@@ -31,6 +31,7 @@ jobs:
           cd twd3-web
           npm run build
       - name: Deploy
+        run: cd twd3-web
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
