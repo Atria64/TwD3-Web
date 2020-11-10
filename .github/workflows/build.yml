@@ -33,7 +33,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
           BASE_BRANCH: master
           BRANCH: gh-pages
           FOLDER: twd3-web/dist/spa
