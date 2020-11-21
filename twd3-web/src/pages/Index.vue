@@ -44,6 +44,16 @@
           <q-timeline-entry heading tag="h4">
             V1.2.x
           </q-timeline-entry>
+
+          <q-timeline-entry
+            title="Version 1.2.3"
+            subtitle="2020年11月18日"
+          >
+            <div>
+              TwD3-Webリンクの追加
+            </div>
+          </q-timeline-entry>
+
           <q-timeline-entry
             title="Version 1.2.2"
             subtitle="2020年10月16日"
