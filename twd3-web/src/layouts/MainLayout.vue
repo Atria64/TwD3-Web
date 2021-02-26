@@ -52,7 +52,7 @@
       <q-toolbar>
         <q-toolbar-title />
           <div>
-            The MIT License,  Copyright (c) 2020 Atria64. All Rights Reserved.
+            The MIT License,  Copyright (c) 2020-2021 Atria64. All Rights Reserved.
           </div>
       </q-toolbar>
     </q-footer>
