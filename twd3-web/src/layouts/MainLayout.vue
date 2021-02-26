@@ -64,7 +64,7 @@ import EssentialLink from 'components/EssentialLink.vue'
 
 const linksData = [
   {
-    title: 'GitHub',
+    title: 'TwD3 GitHub Repository',
     caption: 'github.com/Atria64/TwD3',
     icon: 'fab fa-github-square',
     link: 'https://github.com/Atria64/TwD3'
@@ -86,6 +86,12 @@ const linksData = [
     caption: '@AtriaSoft',
     icon: 'fab fa-twitter',
     link: 'https://twitter.com/AtriaSoft'
+  },
+  {
+    title: 'TwD3-Web GitHub Repository',
+    caption: 'github.com/Atria64/twd3-web',
+    icon: 'fab fa-github-square',
+    link: 'fab fa-github-square'
   }
 ]
 
