@@ -91,7 +91,7 @@ const linksData = [
     title: 'TwD3-Web GitHub Repository',
     caption: 'github.com/Atria64/twd3-web',
     icon: 'fab fa-github-square',
-    link: 'fab fa-github-square'
+    link: 'https://github.com/Atria64/twd3-web'
   }
 ]
 
